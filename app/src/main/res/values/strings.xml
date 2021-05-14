@@ -1,0 +1,39 @@
+<resources>
+    <string name="appName">Not Forgot</string>
+    <string name="splashText">NOT\nFORGOT</string>
+    <string name="email">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="logIn">Войти</string>
+    <string name="underlinedLogin"><u>Войти</u></string>
+    <string name="noAccountQuestion">Нет аккаунта?</string>
+    <string name="register">Зарегестрироваться</string>
+    <string name="underlinedRegister"><u>Зарегестрироваться</u></string>
+    <string name="createAccount">Создать аккаунт</string>
+    <string name="surname">Фамилия</string>
+    <string name="repeatPassword">Повторите пароль</string>
+    <string name="haveAccountQuestion">Есть аккаунт?</string>
+    <string name="create">Создать</string>
+    <string name="noTasksText">Пока что у вас нет никаких дел.\nХорошего отдыха!</string>
+    <string name="noTasks">No tasks</string>
+    <string name="notesIcon">Notes icon</string>
+    <string name="addNote">Добавить заметку</string>
+    <string name="title">Заголовок</string>
+    <string name="enterTitle">Введите заголовок</string>
+    <string name="description">Описание</string>
+    <string name="dateOfDoingTask">Срок выполнения задачи</string>
+    <string name="save">Сохранить</string>
+    <string name="addCategory">Добавить категорию</string>
+    <string name="enterCategory">Введите категорию</string>
+    <string name="cancelling">Отмена</string>
+    <string name="saving">Сохранение…</string>
+    <string name="note">Заметка</string>
+    <string name="logout">Выйти из аккаунта</string>
+    <string name="done">Выполнено</string>
+    <string name="undone">Не выполнено</string>
+    <string-array name="categories">
+        <item>Категория 1</item>
+        <item>Категория 2</item>
+        <item>Категория 3</item>
+        <item>Категория 4</item>
+    </string-array>
+</resources>

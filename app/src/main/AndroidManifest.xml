@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ru.tsu.lab3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/appName"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:targetApi="n">
+        <activity
+            android:name=".view.MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.NotesDetailsActivity"
+            android:label="@string/note" />
+        <activity
+            android:name=".activities.EditNoteActivity"
+            android:label="@string/addNote"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.TasksShowActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.RegistrationActivity"
+            android:label="@string/createAccount"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.LogInActivity"
+            android:label="@string/logIn"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>
